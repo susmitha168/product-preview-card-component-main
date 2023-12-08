@@ -36,7 +36,7 @@ body {
     padding: 35px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap:35px;
 }
 
 h6.detail-cat {
@@ -66,32 +66,31 @@ p.detail-des {
 
 p.curr-price{
     color:hsl(158,36%,37%);
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    padding-right: 25px;
+    padding-right: 30px;
 }
 
 p.old-price {
     color: hsl(228, 12%, 48%);
     text-decoration: line-through;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .order-button {
     background-color: hsl(158,36%,37%);
-    padding: 10px;
     border-radius: 9px;
     border: none;
     color: white;
     font-weight: 700;
     cursor: pointer;
     font-size: 14px;
-    transition: background-color .3s ease;
-}
-
-.order-button img {
-    padding-right: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 20px 64px;
 }
 
 .order-button:hover {
